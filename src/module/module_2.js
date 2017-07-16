@@ -1,6 +1,6 @@
 // 値を1000倍にするモジュール
 (function(mod) {
-  if (typeof module.exports === 'Object') {
+  if (typeof exports === 'Object') {
     // exportsがあればモジュール化
     module.exports = mod();
   } else {
