@@ -27,7 +27,7 @@ webpackでjsを一つのファイルにまとめる。jqueryもまとめる。
 ~~~
 
 ## demo
-https://yuki-sakaguchi.github.io/webpack-temp/
+https://yuki-sakaguchi.github.io/webpack-temp/public/
 
 ## 参考
 http://qiita.com/soarflat/items/28bf799f7e0335b68186
