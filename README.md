@@ -13,16 +13,19 @@ webpackでjsを一つのファイルにまとめる。jqueryもまとめる。
 ## ディレクトリ構成
 ~~~
 ├ package.json
+│
 ├ public
 │ ├ index.html
 │ └ js
 │    └ bundle.js
+│
 ├ src
 │ └ js
 │    ├ app.js
 │    └ modules
 │       ├ module_1.js
 │       └ module_2.js
+│
 └─ webpack.config.js
 ~~~
 
