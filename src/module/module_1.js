@@ -1,4 +1,6 @@
-// 値１と値２を足すモジュールi
+/**
+ * 値１と値２を足すモジュールi
+ */
 (function(mod) {
   if (typeof exports === 'Object') {
     // exportsがあればモジュール化
