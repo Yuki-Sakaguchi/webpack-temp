@@ -36,3 +36,6 @@ https://yuki-sakaguchi.github.io/webpack-temp/public/
 http://qiita.com/soarflat/items/28bf799f7e0335b68186
 http://qiita.com/tatsuyankmura/items/539c56837fc3a5f258b5
 http://qiita.com/civic/items/82c0184bcadc50965f91
+
+## 開発環境
+開発期ではソースマップを作成し、本番ではソースマップ無しでミニファイ
