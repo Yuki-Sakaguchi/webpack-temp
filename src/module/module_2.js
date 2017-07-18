@@ -2,7 +2,7 @@
  * 値を1000倍にするモジュール
  */
 (function(mod) {
-  if (typeof exports === 'Object') {
+  if (typeof exports === 'object') {
     // exportsがあればモジュール化
     module.exports = mod();
   } else {
@@ -11,8 +11,8 @@
   }
 })(function() {
   // モジュールの処理
-  var mod = function(num1) {
+  var module_2 = function(num1) {
     return num1 * 1000;
   };
-  return mod;
+  return module_2;
 });

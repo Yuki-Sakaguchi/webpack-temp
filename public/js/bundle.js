@@ -85,13 +85,16 @@ $(function() {
   $('body').append($div.text('webpackで作った値は「' + num + '」です！'));
 });
 
+
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-// 値１と値２を足すモジュールi
+/**
+ * 値１と値２を足すモジュールi
+ */
 (function(mod) {
-  if (typeof module.exports === 'Object') {
+  if (true) {
     // exportsがあればモジュール化
     module.exports = mod();
   } else {
@@ -108,11 +111,13 @@ $(function() {
 
 /***/ }),
 /* 2 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-// 値を1000倍にするモジュール
+/**
+ * 値を1000倍にするモジュール
+ */
 (function(mod) {
-  if (typeof module.exports === 'Object') {
+  if (true) {
     // exportsがあればモジュール化
     module.exports = mod();
   } else {
@@ -121,10 +126,10 @@ $(function() {
   }
 })(function() {
   // モジュールの処理
-  var mod = function(num1) {
+  var module_2 = function(num1) {
     return num1 * 1000;
   };
-  return mod;
+  return module_2;
 });
 
 /***/ }),
@@ -10389,3 +10394,4 @@ return jQuery;
 
 /***/ })
 /******/ ]);
+//# sourceMappingURL=bundle.js.map

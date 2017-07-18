@@ -2,7 +2,7 @@
  * 値１と値２を足すモジュールi
  */
 (function(mod) {
-  if (typeof exports === 'Object') {
+  if (typeof exports === 'object') {
     // exportsがあればモジュール化
     module.exports = mod();
   } else {
@@ -11,8 +11,8 @@
   }
 })(function() {
   // モジュールの処理
-  var mod = function(num1, num2) {
+  var module_1 = function(num1, num2) {
     return num1 + num2;
   };
-  return mod;
+  return module_1;
 });
